@@ -1,0 +1,20 @@
+{
+  "name": "@lucy/typescript-plugin",
+  "version": "0.0.1",
+  "description": "TypeScript Language Service plugin for Lucy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucydsl/typescript-plugin.git"
+  },
+  "keywords": ["lucy"],
+  "author": "Matthew Phillips",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/lucydsl/typescript-plugin/issues"
+  },
+  "homepage": "https://github.com/lucydsl/typescript-plugin#readme"
+}

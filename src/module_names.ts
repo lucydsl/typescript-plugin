@@ -45,7 +45,7 @@ export function createResolveModuleNames(state: ProgramState) {
     }
 
     const resolvedLucyModule: ts.ResolvedModuleFull = {
-        extension: ts.Extension.Ts,
+        extension: ts.Extension.Dts,
         resolvedFileName
     };
     return resolvedLucyModule;

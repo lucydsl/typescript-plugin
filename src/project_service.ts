@@ -15,7 +15,12 @@ export function createHostReadFile(state: ProgramState) {
     try {
       // TODO compile
 
-      return `export default function createMachine() { return 33; }`;
+      return `
+        interface CreateMachineRet {
+          one: string;
+        }
+        export function createMachine(): CreateMachineRet
+      `.trim();
     } catch(err) {
       info(logger, `Error loading Lucy file ${path}`);
       // TODO debug(logger, err)

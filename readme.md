@@ -1,3 +1,5 @@
+> *Note*: This is a work-in-progress and doesn't work yet.
+
 # TypeScript Language Service Plugin for Lucy
 
 ## Installation
